@@ -43,7 +43,15 @@ namespace inharitence_class
             subject_id[2] = Convert.ToInt32(textBox15.Text);
 
             obj.setvalue(tname, student_name, clas, rollno,subject_name,subject_id);
+            Form2 form2 = new Form2(obj);
+            this.Hide();
+            form2.Show();
 
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }

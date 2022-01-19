@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace inharitence_class
 {
-    class Class1
+ public   class Class1
     {
-        protected string []name=new string[3];
-        protected int[] roll=new int[3];
-        protected string[] clas=new string[3];
+        public string []name=new string[3];
+        public int[] roll=new int[3];
+        public string[] clas=new string[3];
         public void setstudent(string[]name,string[]clas,int[]roll)
         {
             this.name = name;
