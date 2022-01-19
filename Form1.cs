@@ -20,6 +20,7 @@ namespace inharitence_class
         private void Button1_Click(object sender, EventArgs e)
         {
             Class3 obj = new Class3();
+            string tname = textBox16.Text;
             string[] student_name = new string[3];
             int[] rollno = new int[3];
             string[] clas = new string[3];
@@ -41,7 +42,7 @@ namespace inharitence_class
             subject_id[1] = Convert.ToInt32(textBox10.Text);
             subject_id[2] = Convert.ToInt32(textBox15.Text);
 
-
+            obj.setvalue(tname, student_name, clas, rollno,subject_name,subject_id);
 
 
         }
